@@ -1,0 +1,29 @@
+{
+    "name": "derrobert/omnipay-sofortueberweisung",
+    "type": "library",
+    "description": "Sofortueberweisung driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "sofortueberweisung"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Schwandner",
+            "email": "rs@rob24.de"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Omnipay\\Sofortueberweisung\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    }
+}
